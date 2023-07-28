@@ -1,4 +1,4 @@
-package com.faridnia.bestr
+package com.faridnia.bestr.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
