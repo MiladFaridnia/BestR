@@ -3,21 +3,21 @@ package com.faridnia.bestr.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
-data class Step(
+data class StepDto(
     @SerializedName("distance")
-    val distance: Distance? = Distance(),
+    val distanceDto: DistanceDto,
     @SerializedName("duration")
-    val duration: DurationX? = DurationX(),
+    val duration: DurationDto,
     @SerializedName("end_location")
-    val endLocation: EndLocationX? = EndLocationX(),
+    val endLocation: EndLocationDto? = EndLocationDto(),
     @SerializedName("html_instructions")
     val htmlInstructions: String? = "",
     @SerializedName("maneuver")
     val maneuver: String? = "",
     @SerializedName("polyline")
-    val polyline: Polyline? = Polyline(),
+    val polylineDto: PolylineDto? = PolylineDto(),
     @SerializedName("start_location")
-    val startLocation: StartLocationX? = StartLocationX(),
+    val startLocation: StartLocationDto? = StartLocationDto(),
     @SerializedName("travel_mode")
     val travelMode: String? = ""
 )

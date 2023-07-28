@@ -3,7 +3,7 @@ package com.faridnia.bestr.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
-data class StartLocation(
+data class SouthwestDto(
     @SerializedName("lat")
     val lat: Double? = null,
     @SerializedName("lng")

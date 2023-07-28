@@ -3,9 +3,9 @@ package com.faridnia.bestr.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
-data class Bounds(
+data class BoundsDto(
     @SerializedName("northeast")
-    val northeast: Northeast? = null,
+    val northeastDto: NortheastDto? = null,
     @SerializedName("southwest")
-    val southwest: Southwest? = null
+    val southwestDto: SouthwestDto? = null
 )
