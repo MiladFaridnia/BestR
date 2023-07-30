@@ -91,8 +91,13 @@ dependencies {
     kapt ("androidx.hilt:hilt-compiler:1.0.0")
     implementation ("androidx.hilt:hilt-navigation-compose:1.1.0-alpha01")
 
+    // Compose dependencies
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
     implementation ("com.google.accompanist:accompanist-flowlayout:0.17.0")
+
+    // Google map Compose plugin
+    implementation ("com.google.maps.android:maps-compose:1.0.0")
+    implementation ("com.google.android.gms:play-services-maps:18.1.0")
 
 
 }
